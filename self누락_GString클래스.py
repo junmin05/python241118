@@ -6,7 +6,7 @@ class DemoString:
     def set(self, msg):
         self.strName = msg
     def print(self):
-        print(str)
+        print(strName)
 
 d = DemoString()
 d.set("First Message")
