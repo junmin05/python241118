@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테트리스 게임</title>
+    <style>
+        #gameBoard {
+            border: 2px solid #333;
+            width: 300px;
+            height: 600px;
+        }
+        .game-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameBoard"></canvas>
+        <div class="game-info">
+            <p>점수: <span id="score">0</span></p>
+            <p>레벨: <span id="level">1</span></p>
+        </div>
+    </div>
+
+    <script>
+        // 게임 보드 초기화
+        const canvas = document.getElementById('gameBoard');
+        const ctx = canvas.getContext('2d');
+        
+        // 게임 보드 크기 설정
+        canvas.width = 300;
+        canvas.height = 600;
+
+        // 여기에 게임 로직 추가 예정
+    </script>
+</body>
+</html>
